@@ -3,48 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web Sencilla</title>
+    <title>Mi Portafolio Personal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
             padding: 20px;
         }
-
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
         h1 {
-            font-size: 36px;
+            color: #333;
         }
-
+        h2 {
+            color: #444;
+        }
         p {
-            font-size: 18px;
-            margin: 20px;
+            color: #666;
         }
 
-        a {
-            text-decoration: none;
-            color: #007bff;
+        /* Colores de fondo para secciones */
+        #about {
+            background-color: #9be6b1; /* Verde claro */
+            padding: 15px;
+            border-radius: 5px;
         }
-
-        a:hover {
-            text-decoration: underline;
+        #education {
+            background-color: #dee4bb; /* Amarilloclaro */
+            padding: 15px;
+            border-radius: 5px;
+        }
+        #experience {
+            background-color: #9be6b1; /* Verde claro */
+            border-radius: 5px;
+        }
+        #projects {
+            background-color: #dee4bb; /* Amarilloclaro */
+            padding: 15px;
+            border-radius: 5px;
+        }
+        #skills {
+            background-color:  #9be6b1; /* Verde claro */
+            padding: 15px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Página Web Sencilla</h1>
-    </header>
-    <main>
-        <p>Bienvenido a mi página web sencilla. Esto es un ejemplo básico de cómo estructurar una página web utilizando HTML y darle estilo con CSS.</p>
-        <p>Puedes aprender más sobre HTML y CSS en <a href="https://www.ejemplodeenlace.com">este enlace</a>.</p>
-    </main>
+    <div class="container">
+        <h1>Mi Portafolio</h1>
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Soy una bióloga apasionada por la genética y las neurociencias, con un profundo interés en explorar los misterios del mundo molecular y cerebral. Mi fascinación por la investigación me ha llevado a adentrarme en el emocionante campo de la programación y el análisis de datos, donde combino mi formación en biología con habilidades técnicas para abordar preguntas complejas. Mi objetivo es contribuir al avance del conocimiento científico y descubrir conexiones innovadoras entre la genética, la neurociencia y la tecnología. </p>
+        </section>
+        
+        <section id="education">
+            <h2>Educación</h2>
+            <p> - Maestría en Neurociencias, Universidad ABC, Año de Graduación</p>
+            <p> - Pregrado en Biología, Universidad Nacional de Colombia, 2026</p>
+            <p> - Técnico en sistemas agropecuarios ecológicos, SENA, 2019</p>
+        </section>
+        
+        <section id="experience">
+            <h2>Experiencia</h2>
+            <p> - Investigador Asociado en Genética, Indiana University Purdue-University Fort Wayne, Desde 2025</p>
+            <p> - Asistente de Investigación en Genética de la Yuca (Manihot esculenta), Laboratorio 215, 2023</p>
+            <p> - Análisis de datos en Ecommerce, Helpful Finds, 2023</p>
+            <p> - Voluntaria en colecciones biológicas, Instituto de ciencias naturales, 2023-2024</p>
+            <p> - Encargado en el entrecruzamiento de aves ornamentales, Kikos Criadero Colombiano, 2017-2019</p>
+        </section>
+        
+        <section id="projects">
+            <h2>Proyectos Destacados</h2>
+            <p> Nombre de la página que cree: Creación de página web para el conocimiento de la biología y neurociencias.</p>
+            <p> Kikos Criadero Colombiano: Emprendimiento con aves ornamentales.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <p> - Genética Molecular</p>
+            <p> - Análisis de Datos</p>
+            <p> - Programación en Python</p>
+            <p> - Neurociencias</p>
+        </section>
+    </div>
 </body>
 </html>
